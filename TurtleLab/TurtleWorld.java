@@ -8,7 +8,7 @@ public class TurtleWorld
 { 
     public static void main(String args[]) 
     { 
-        World turtleWorld= new World(4000,1000); 
+        World turtleWorld= new World(1000,1000); 
         Turtle turtle= new Turtle(turtleWorld); 
         turtle.setPenColor(Color.GREEN);
         turtle.setShellColor(Color.BLUE);  
